@@ -1,6 +1,5 @@
 package first;
 
-import javax.xml.ws.handler.MessageContext.Scope;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -23,6 +22,7 @@ public class ThirdClass {
 		 */
 		
 		driver.findElement(By.id("email")).sendKeys("KTCTC");
+		
 		
 		/*
 		 * By ps = By.name("pass");
