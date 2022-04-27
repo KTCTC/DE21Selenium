@@ -1,5 +1,6 @@
 package waitsinselenium;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -38,6 +39,7 @@ public class ExpliciteWait {
 		 * displayed as TimeOutException
 		 */
 		WebDriverWait wt = new WebDriverWait(driver, 10);
+		wt.pollingEvery(Duration.ofMillis(2000));
 		
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.id("egfwetegetger")));
 		
