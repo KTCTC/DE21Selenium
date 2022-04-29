@@ -6,7 +6,8 @@ public class ToolTipClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		// write code to check if tool tip is displayed  https://demoqa.com/tool-tips
+		// Write code to hover on menues https://demoqa.com/menu
 		
 		
 		// to check if tooltip is displayed first option
